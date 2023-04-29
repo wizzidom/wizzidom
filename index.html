@@ -73,8 +73,7 @@
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
-
-  <!--==========================
+<!--==========================
     Intro Section
   ============================-->
   <section id="intro">
@@ -357,7 +356,7 @@ The internet and all it’s possibilities are growing. Business owners, website 
           </div>
 
           <div class="col-md-2">
-            <img src="img/Executive.png" width="50%" alt="">
+            <img src="img/Executive.png" width="70%" alt="">
           </div>
 
           <div class="col-md-2">
@@ -372,9 +371,50 @@ The internet and all it’s possibilities are growing. Business owners, website 
       </div>
     </section><!-- #more-features -->
 
+
+
+     <style>
+      .pop{
+        display: none;
+      }
+     </style>
+    
+     <div class="pop"> 
+    <div class="col-lg-6 col-md-8" style="text-align: center; position: relative; left : 25%">
+      <div class="form">
+        
+        <div id="errormessage"></div>
+        <form action="https://formsubmit.co/majolawisdom@gmail.com" method="POST" role="form" class="contactForm">
+          <div class="form-row">
+            <div class="form-group col-lg-6">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group col-lg-6">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validation"></div>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Contact Number" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+            <div class="validation"></div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5"  data-msg="Please write something for us" placeholder="Additional Message"></textarea>
+            <div class="validation"></div>
+          </div>
+          <div class="text-center"><button type="submit" title="Send Message" onclick="">Send Message</button></div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+     
     <!--==========================
       Pricing Section
     ============================-->
+
     <section id="pricing" class="section-bg">
       <div class="container">
 
@@ -395,9 +435,11 @@ The internet and all it’s possibilities are growing. Business owners, website 
 
                 <li><i class="ion-android-checkmark-circle"></i> Custom Domain and Hosting</li>
                 <li><i class="ion-android-checkmark-circle"></i> Professional Emails</li>
-                <li><i class="ion-android-checkmark-circle"></i> Responsive</li>
+                <li><i class="ion-android-checkmark-circle"></i> MultiPage & Responsive</li>
               </ul>
-              <a href="#" class="get-started-btn">Get Started</a>
+             
+              <button onclick="togglePopup()" class="get-started-btn"><a href="https://api.whatsapp.com/send?phone=+27639260604&text=I'm interested in this sofa in the Basic Option " style="color: white;">Get Started</a></button>
+              <!-- <a href="#" class=>Get Started</a> -->
             </div>
           </div>
 
@@ -411,9 +453,10 @@ The internet and all it’s possibilities are growing. Business owners, website 
                 <li><i class="ion-android-checkmark-circle"></i> Professional Emails</li>
                 <li><i class="ion-android-checkmark-circle"></i> Secure Payments</li>
                 <li><i class="ion-android-checkmark-circle"></i> Custom Domain and Hosting</li>
-                <li><i class="ion-android-checkmark-circle"></i> Responsive</li>
+                <li><i class="ion-android-checkmark-circle"></i> MultiPage & Responsive</li>
               </ul>
-              <a href="#" class="get-started-btn">Get Started</a>
+              <button onclick="togglePopup()" class="get-started-btn"><a href="https://api.whatsapp.com/send?phone=+27639260604&text=I'm interested in this sofa in the E-commerce Option" style="color: white;">Get Started</a></button>
+            
             </div>
           </div>
 
@@ -427,11 +470,11 @@ The internet and all it’s possibilities are growing. Business owners, website 
                 <li><i class="ion-android-checkmark-circle"></i> Professional Emails</li>
 
                 <li><i class="ion-android-checkmark-circle"></i> Custom Domain and Hosting</li>
-                <li><i class="ion-android-checkmark-circle"></i> Responsive</li>
+                <li><i class="ion-android-checkmark-circle"></i> MultiPage & Responsive</li>
                 <li><i class="ion-android-checkmark-circle"></i> And More...</li>
 
               </ul>
-              <a href="#" class="get-started-btn">Get Started</a>
+              <button onclick="togglePopup()" class="get-started-btn"><a href="https://api.whatsapp.com/send?phone=+27639260604&text=I'm interested in this sofa in the Custom-Complex Option " style="color: white;">Get Started</a></button>
             </div>
           </div>
 
@@ -598,48 +641,49 @@ The internet and all it’s possibilities are growing. Business owners, website 
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-1.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-1.jpg" alt="">
+              <a href="img/website1.png" class="gallery-popup">
+                
+                <img src="img/website1.png" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-2.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-2.jpg" alt="">
+              <a href="img/website6.png" class="gallery-popup">
+                <img src="img/website6.png" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-3.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-3.jpg" alt="">
+              <a href="img/websitesoft.png" class="gallery-popup">
+                <img src="img/websitesoft.png" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-4.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-4.jpg" alt="">
+              <a href="img/websitewizzi.png" class="gallery-popup">
+                <img src="img/websitewizzi.png" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-5.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-5.jpg" alt="">
+              <a href="img/websitepot.png" class="gallery-popup">
+                <img src="img/websitepot.png" alt="">
               </a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-6.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-6.jpg" alt="">
+              <a href="img/website4.png" class="gallery-popup">
+                <img src="img/website4.png" alt="">
               </a>
             </div>
           </div>
