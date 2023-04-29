@@ -1,2 +1,2 @@
 ### Hi there 👋
-This is my website for my company
+I AM A SOFTWARE DEVELOPER
