@@ -1,12 +1,4 @@
-/*
-  Theme Name: Avilon
-  Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
 body {
   background: #fff;
   color: #666666;
@@ -716,7 +708,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #call-to-action {
   overflow: hidden;
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: url(../img/call-to-action-bg.jpg) fixed;
   background-size: cover;
   padding: 80px 0;
 }
@@ -835,9 +827,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #clients img {
   max-width: 100%;
-  opacity: 0.5;
+  opacity: 1;
   transition: 0.3s;
-  padding: 15px 0;
+  padding: 12px 0;
 }
 
 #clients img:hover {
@@ -850,7 +842,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0 60px 0;
   overflow: hidden;
 }
-
+a{
+  text-decoration: none;
+}
 #pricing .box {
   padding: 40px;
   margin-bottom: 30px;
@@ -1029,7 +1023,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
-/* Gallery Section
+/* 
+ Section
 --------------------------------*/
 #gallery {
   background: #fff;
@@ -1038,7 +1033,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .container-fluid {
-  padding: 0px;
+  padding: 20px;
 }
 
 #gallery .gallery-overlay {
@@ -1057,15 +1052,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 #gallery .gallery-item {
   overflow: hidden;
   position: relative;
-  padding: 0;
+  padding: 10px;
   vertical-align: middle;
   text-align: center;
+  
 }
 
 #gallery .gallery-item img {
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
   width: 100%;
+ 
+  box-shadow: 0px -2px 6px 4px rgba(0, 0, 0, 0.29)
 }
 
 #gallery .gallery-item:hover img {
