@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  padding: 30px 0;
+  padding: 0px 0;
   height: 100px;
   position: fixed;
   left: 0;
@@ -91,6 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  obe
 }
 
 @media (max-width: 768px) {
@@ -99,13 +100,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
   }
   #header #logo img {
-    max-height: 40px;
+    max-height: 100px;
+    padding: 0px 0;
   }
 }
 
 #header.header-fixed {
-  background: linear-gradient(10deg, #1dc8cd, #000);
-  padding: 20px 0;
+  background: linear-gradient(90deg,#fff , #1dc8cd);
+  padding: 0px 0;
   height: 85px;
   transition: all 0.5s;
 }
@@ -130,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro .intro-text {
   position: absolute;
   left: 0;
-  top: 60px;
+  top: 100px;
   right: 0;
   height: calc(50% - 60px);
   display: flex;
