@@ -1,2 +1,2 @@
-### Hi there 👋
-I AM A SOFTWARE DEVELOPER
+### Software Enthusiast 👋
+
